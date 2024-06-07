@@ -1,7 +1,8 @@
 .vscode
-__pycache__
 
+__pycache__
+venv
+
+music_app/db.sqlite3
 
 node_modules
-
-venv
