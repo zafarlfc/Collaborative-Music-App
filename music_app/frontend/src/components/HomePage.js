@@ -20,7 +20,7 @@ export default class HomePage extends Component {
         return (
         <Router>
             <Switch>
-                <Route path="/"><p>This is the home page</p></Route>
+                <Route exact path="/"><p>This is the home page</p></Route>
                 <Route path="/join" Component={RoomJoinPage} />
                 <Route path="/create" Component={CreateRoomPage} />
             </Switch>
@@ -28,6 +28,3 @@ export default class HomePage extends Component {
         );
     }
 }
-
-// const appDiv = document.getElementById("app")
-// render(<App/>, appDiv)
